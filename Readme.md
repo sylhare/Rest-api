@@ -100,3 +100,11 @@ To view a single resource we *GET* it by specifying that it's id specified via t
 - [Ruby Beginners guide to REST API](http://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api/)
 - [Rest architecture style](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [HTTP Methods](http://restfulapi.net/http-methods/)
+
+
+
+# GraphQL
+
+[GraphQL](http://graphql.org/) is a new API standard that provides a more efficient, powerful and **flexible alternative to REST**. It was developed and open-sourced by [Facebook](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) and is now maintained by a large [community](http://graphql.org/community/) of companies and individuals from all over the world.
+
+[Learn more ...](https://www.howtographql.com/basics/0-introduction/)
