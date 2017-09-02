@@ -1,0 +1,11 @@
+{
+  "_items":[],
+  "_links":{
+	"self":{
+	  "href": "127.0.0.1:5000/people"},
+      "title": "people"},
+    "parent": {
+	  "href": "127.0.0.1:5000"},
+      "title": "home"}
+  )
+}
