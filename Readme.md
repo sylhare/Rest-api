@@ -27,10 +27,10 @@ Here are the HTTP verbs used with REST for the common operations and the status 
 
 | HTTP Verb | CRUD   | Item (ex: /resource/id)                                                                                                                 |
 |-----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| POST      | Create | 201 (Created) 'Location' header with link to /resource/id containing new ID. 404 (Not Found) 409 (Conflict) if resource already exists. |
-| GET       | Read   | 200 (OK). 404 (Not Found) if the id not found or invalid.                                                                               |
-| PUT       | Update | 200 (OK) 204 (No Content). 404 (Not Found) if the id not found or invalid.                                                              |
-| DELETE    | Delete | 200 (OK). 404 (Not Found) if the id not found or invalid.                                                                               |
+| POST      | Create | 201 (Created) 'Location' header with link to /resource/id containing new ID. <br>404 (Not Found) <br>409 (Conflict) if resource already exists. |
+| GET       | Read   | 200 (OK). <br>404 (Not Found) if the id not found or invalid.                                                                               |
+| PUT       | Update | 200 (OK) <br>204 (No Content). <br>404 (Not Found) if the id not found or invalid.                                                              |
+| DELETE    | Delete | 200 (OK). <br>404 (Not Found) if the id not found or invalid.                                                                               |
 
 ### RESTful Web Services (API)
 
@@ -90,16 +90,25 @@ To view a single resource we *GET* it by specifying that it's id specified via t
     - POST to create resource
     - PUT to modify resource
     - DELETE to delete the resource.
+- HATEOS: **Hypermedia as the engine of application state**
 
 ### Source
 
-- [Node.JS REST API](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd)
-- [Python REST API](https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq)
-- [Java and Spring REST API](https://spring.io/guides/gs/rest-service/)
+#### More information on REST
+
 - [REST explaination](https://spring.io/understanding/REST)
-- [Ruby Beginners guide to REST API](http://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api/)
 - [Rest architecture style](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [HTTP Methods](http://restfulapi.net/http-methods/)
+
+#### Getting started with REST
+
+- [Node.JS REST API](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd)
+- [Python](https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq) [and Flask REST API](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
+- [Python and Eve simple REST API](http://python-eve.org/index.html)
+- [Java with Spring REST API](https://spring.io/guides/gs/rest-service/)
+- [Ruby Beginners guide to REST API](http://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api/)
+- [Ruby on Rails is RESTful by default](https://github.com/Sylhare/Ruby)
+
 
 
 
