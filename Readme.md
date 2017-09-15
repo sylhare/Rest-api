@@ -34,7 +34,7 @@ Here are the HTTP verbs used with REST for the common operations and the status 
 
 ### RESTful Web Services (API)
 
-RESTful APIs enable you to develop any kind of web application having all possible **CRUD** operations (create, retrieve, update, delete).
+RESTful APIs enable you to develop any kind of web application having all possible **CRUD** operations.
 
 A RESTful web service (also called a RESTful web API) is a web service implemented using HTTP and the principles of REST. 
 It is a collection of resources, with four defined aspects:
@@ -81,6 +81,7 @@ To view a single resource we *GET* it by specifying that it's id specified via t
 
 ### REST Glossary
 
+- CRUD: **(create, retrieve, update, delete)** are the four default functions of persistent storage. The operation to manage a database.
 - REST: **Representational state transfer** which essentially refers to a style of web architecture that has many underlying characteristics and governs the behavior of clients and servers.
 - URI: **Uniform Resource Identifier** is a string of characters used to identify a name or a resource on the Internet composed of:
 	- URL: **Uniform Resource Locator** that specifies where an identified resource is available and the mechanism for retrieving it (`http://`, `ftp://`, ...)
@@ -90,7 +91,7 @@ To view a single resource we *GET* it by specifying that it's id specified via t
     - POST to create resource
     - PUT to modify resource
     - DELETE to delete the resource.
-- HATEOS: **Hypermedia as the engine of application state**
+- HATEOS: **Hypermedia as the engine of application state** which is Rest with stricter rules. The possible actions (CRUD) can automatically change based on the data
 
 ### Source
 
