@@ -1,0 +1,11 @@
+{
+    "name": "AUDI",
+    "carModel": 2014,
+    "price": 30000,
+    "foo": "bar",
+    "tom": "jerry",
+    "ignoreme1": "ig1",
+    "ignoreme2": "ig2",
+    "colors": ["GRAY", "BLACK", "WHITE"],
+    "promoDate": 1399647200000
+}

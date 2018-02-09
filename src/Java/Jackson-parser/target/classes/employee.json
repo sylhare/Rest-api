@@ -1,0 +1,28 @@
+{
+  "id": 123,
+  "name": "Mustafa",
+  "permanent": true,
+  "address": {
+    "id": 150,
+    "street": "Albany Dr",
+    "city": "San Jose",
+    "zipcode": 95129
+  },
+  "phoneNumbers": [
+    123456,
+    987654
+  ],
+  "role": "Manager",
+  "cities": [
+    "Los Angeles",
+    "New York"
+  ],
+  "test": {
+    "id": 29,
+    "name": "test"
+  },
+  "properties": {
+    "age": "29 years",
+    "salary": "1000 USD"
+  }
+}
