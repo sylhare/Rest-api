@@ -50,3 +50,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# MongoDB files
+*.wt
+src/NodeJS/data/journal/*
+src/NodeJS/data/diagnostic.data/*
+src/NodeJS/node_modules/*
